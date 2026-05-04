@@ -1,0 +1,9 @@
+{
+  "name": "quotation-system",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "test": "node packages/pricing-engine/test/calculateQuote.test.js",
+    "start:api": "node apps/api/src/server.js"
+  }
+}
